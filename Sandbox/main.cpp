@@ -1,10 +1,19 @@
-namespace Sapiens
-{
-	__declspec(dllimport) void Print();
-}
+#include <Sapiens.h>
 
-int main()
+class Sandbox : public Sapiens::Application
 {
-	Sapiens::Print();
-	return 0;
+public:
+	Sandbox()
+	{
+
+	}
+	~Sandbox()
+	{
+
+	}
+};
+
+Sapiens::Application* Sapiens::CreateApplication()
+{
+	return new Sandbox();
 }

@@ -18,12 +18,21 @@
     <None Include="..\.gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Sapiens\Test.h">
+    <ClInclude Include="src\Sapiens\Application.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sapiens\Core.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sapiens.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sapiens\EntryPoint.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Sapiens\Test.cpp">
+    <ClCompile Include="src\Sapiens\Application.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
